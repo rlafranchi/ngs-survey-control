@@ -1,4 +1,4 @@
-== A simple search engine for NGS Survey Control Points
+<h3>A simple search engine for NGS Survey Control Points</h3>
 
 <a href="http://ngs.noaa.gov">ngs.noaa.gov</a>
 
