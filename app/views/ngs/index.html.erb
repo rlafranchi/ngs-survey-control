@@ -1,14 +1,14 @@
 <h1>A better way to search for NGS Datasheets</h1>
+<a href="https://github.com/rlafranchi/ngs-survey-control">Fork it on Github</a>
 <hr>
 <div class="row">
   <div class="medium-4 columns">
-    <a href="https://github.com/rlafranchi/ngs-survey-control">Fork it on Github</a>
     <%= form_tag root_path, method: :get do %>
       <fieldset>
         <%= label_tag :latitude %>
-        <%= text_field_tag :latitude %>
+        <%= text_field_tag :latitude, nil, placeholder: params[:latitude] || '40.12345' %>
         <%= label_tag :longitude %>
-        <%= text_field_tag :longitude %>
+        <%= text_field_tag :longitude, nil, placeholder: params[:longitude] || '-104.32456' %>
         <%= label_tag :distance, "Distance (miles)" %>
         <%= select_tag :distance, options_for_select([['1', 1], ['2', 2], ['3', 3], ['4', 4], ['5', 5], ['6', 6], ['7', 7], ['8', 8], ['9', 9], ['10', 10]], 5) %>
         <%= submit_tag "Submit", class: 'button' %>
