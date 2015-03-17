@@ -1,0 +1,244 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps1.arcgisonline.com/ArcGIS/rest/services/NGS_Survey_Control_Points/MapServer/1/query?f=json&geometry=%7Bxmin:%20-105.18846177675125,%20ymin:%2039.85505895079479,%20xmax:%20-104.81153822324875,%20ymax:%2040.14494104920521%7D&geometryType=esriGeometryEnvelope&inSR=4326&outFields=DATA_SRCE,NAME,LAST_COND,ELEVATION,ELEV_ORDER,STABILITY&outSR=4326
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/plain; charset=utf-8
+      Date:
+      - Fri, 13 Mar 2015 02:06:26 GMT
+      Etag:
+      - "-2134019768"
+      Server:
+      - Microsoft-IIS/7.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '8496'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"displayFieldName":"NAME","fieldAliases":{"DATA_SRCE":"Data Source","NAME":"Name","LAST_COND":"Last
+        Condition","ELEVATION":"Elevation","ELEV_ORDER":"Elevation Order","STABILITY":"Stability"},"geometryType":"esriGeometryPoint","spatialReference":{"wkid":4326},"fields":[{"name":"DATA_SRCE","type":"esriFieldTypeString","alias":"Data
+        Source","length":57},{"name":"NAME","type":"esriFieldTypeString","alias":"Name","length":40},{"name":"LAST_COND","type":"esriFieldTypeString","alias":"Last
+        Condition","length":16},{"name":"ELEVATION","type":"esriFieldTypeString","alias":"Elevation","length":9},{"name":"ELEV_ORDER","type":"esriFieldTypeString","alias":"Elevation
+        Order","length":1},{"name":"STABILITY","type":"esriFieldTypeString","alias":"Stability","length":1}],"features":[{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL0178","NAME":"1","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1497.912","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.81277777822008,"y":40.079722221220436}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1775","NAME":"16","LAST_COND":"MONUMENTED","ELEVATION":"
+        1698.8","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.15465748525784,"y":39.870869465317355}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1763","NAME":"17","LAST_COND":"MONUMENTED","ELEVATION":"
+        1691.5","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.10683469374072,"y":39.858648471477139}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1746","NAME":"18","LAST_COND":"SEE
+        DESCRIPTION","ELEVATION":" 1636.9","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-105.05313730833765,"y":39.887239268144285}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1758","NAME":"25","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1676.9","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.08218206121032,"y":39.859914465490803}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0532","NAME":"285
+        C","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1553.638","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.82333333315142,"y":39.907777777098083}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1418","NAME":"3
+        FEW","LAST_COND":"GOOD","ELEVATION":" 1637.347","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-105.05336958302573,"y":39.943045629414804}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1761","NAME":"4","LAST_COND":"MONUMENTED","ELEVATION":"
+        1656.3","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.09261112167157,"y":39.867782901360243}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI5916","NAME":"48V
+        A","LAST_COND":"GOOD","ELEVATION":" 1546.76","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-105.05017501397526,"y":40.016121917732356}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL0163","NAME":"4969","LAST_COND":"GOOD","ELEVATION":"
+        1514.935","ELEV_ORDER":"1","STABILITY":"D"},"geometry":{"x":-104.81638888888125,"y":40.000277776436377}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0416","NAME":"5005","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1527.088","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.83111111127303,"y":39.958055553988018}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0409","NAME":"5033","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1535.645","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.85222222203407,"y":39.921666665814222}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0395","NAME":"5090","LAST_COND":"GOOD","ELEVATION":"
+        1552.912","ELEV_ORDER":"1","STABILITY":"D"},"geometry":{"x":-104.88999999994191,"y":39.870833332661597}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1321","NAME":"5262=JUNCTION","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1606.","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.10316210597477,"y":40.014760390404184}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1408","NAME":"5515.94","LAST_COND":"GOOD","ELEVATION":"
+        1681.991","ELEV_ORDER":"1","STABILITY":"D"},"geometry":{"x":-105.01527777745078,"y":39.885277776271444}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1796","NAME":"6","LAST_COND":"MONUMENTED","ELEVATION":"
+        1730.9","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.14752479991819,"y":39.889289085505851}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1747","NAME":"8","LAST_COND":"MONUMENTED","ELEVATION":"
+        1640.4","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.07530662821519,"y":39.892065026514999}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1798","NAME":"9","LAST_COND":"GOOD","ELEVATION":"
+        1810.4","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.18358669502203,"y":39.892107723981219}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2129","NAME":"A
+        412 RESET","LAST_COND":"GOOD","ELEVATION":" 1674.89","ELEV_ORDER":"3","STABILITY":"B"},"geometry":{"x":-105.09583333367995,"y":39.898333332807866}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1425","NAME":"A
+        413","LAST_COND":"MONUMENTED","ELEVATION":" 1605.495","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.04416666633341,"y":39.9144444431263}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DH9139","NAME":"A
+        457","LAST_COND":"MONUMENTED","ELEVATION":" 1544.162","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.8227777781488,"y":39.921666665814222}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1753","NAME":"ALLEN","LAST_COND":"GOOD","ELEVATION":"
+        1689.890","ELEV_ORDER":"2","STABILITY":"C"},"geometry":{"x":-105.0529683585889,"y":39.861185074038083}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1719","NAME":"AMEND","LAST_COND":"SEE
+        DESCRIPTION","ELEVATION":" 1549.16","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.82047617222003,"y":39.928805752213897}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1728","NAME":"ANN","LAST_COND":"GOOD","ELEVATION":"
+        1587.8","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.82398607418972,"y":39.855689216171328}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0407","NAME":"B
+        314","LAST_COND":"GOOD","ELEVATION":" 1537.185","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-104.85166666703147,"y":39.923055554644691}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1302","NAME":"B
+        314 RESET","LAST_COND":"GOOD","ELEVATION":" 1537.831","ELEV_ORDER":"1","STABILITY":"D"},"geometry":{"x":-104.85194444498194,"y":39.923055554644691}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1435","NAME":"B
+        412","LAST_COND":"MONUMENTED","ELEVATION":" 1636.164","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.09583333367995,"y":39.88555555428055}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1424","NAME":"B
+        413","LAST_COND":"GOOD","ELEVATION":" 1635.184","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.07138888841158,"y":39.914722221437998}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AB3292","NAME":"BASELINE","LAST_COND":"GOOD","ELEVATION":"
+        1573.4","ELEV_ORDER":" ","STABILITY":"A"},"geometry":{"x":-104.97833635353035,"y":39.999918613184519}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AB3294","NAME":"BIG
+        DRY","LAST_COND":"MONUMENTED","ELEVATION":" 1555.2","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-104.9404948275767,"y":39.989557357695681}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI5914","NAME":"BJC
+        A","LAST_COND":"MONUMENTED","ELEVATION":" 1695.13","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.10090729778071,"y":39.902134452407793}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI5913","NAME":"BJC
+        B","LAST_COND":"MONUMENTED","ELEVATION":" 1710.18","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-105.11345805497554,"y":39.908689988268677}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI5915","NAME":"BJC
+        C","LAST_COND":"MONUMENTED","ELEVATION":" 1721.69","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.12396844710598,"y":39.914342943478616}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1323","NAME":"BLUFF","LAST_COND":"POOR","ELEVATION":"
+        1651.","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.16059966748746,"y":40.062667626487901}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0419","NAME":"BRIGHTON
+        A","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1519.808","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.82027777749289,"y":39.985277777295494}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1715","NAME":"BRIGHTON
+        GR WEST SUGAR CO TANK","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.82000772235891,"y":39.999298649614907}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1716","NAME":"BRIGHTON
+        GR WEST SUGAR CO STK","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.81959999232282,"y":39.998926812872106}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1718","NAME":"BRIGHTON
+        KUNER EMPSON CO TANK","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.82397399095082,"y":39.994385065714738}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1717","NAME":"BRIGHTON
+        MUNICIPAL TANK","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.81581025885392,"y":39.985839624202697}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2051","NAME":"BROOMFIELD
+        GREEN TANK","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-105.07685864483661,"y":39.942038045617487}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1423","NAME":"C
+        413","LAST_COND":"GOOD","ELEVATION":" 1634.620","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.07749999972866,"y":39.919999999233234}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AE6474","NAME":"CHEVY","LAST_COND":"GOOD","ELEVATION":"
+        1523.3","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-104.98481720243525,"y":40.087742879698872}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1240","NAME":"CLEVELAND","LAST_COND":"GOOD","ELEVATION":"
+        1556.7","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.90618725239123,"y":40.095612851678908}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1422","NAME":"D
+        413","LAST_COND":"GOOD","ELEVATION":" 1637.696","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.07222222226298,"y":39.928888888004231}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8180","NAME":"D
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1667.981","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.05861111167305,"y":39.867777777144113}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8205","NAME":"D
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1563.898","ELEV_ORDER":"2","STABILITY":"D"},"geometry":{"x":-105.18444444508286,"y":40.094722221249754}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1744","NAME":"DAMSTEDT","LAST_COND":"SEE
+        DESCRIPTION","ELEVATION":" 1614.7","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.90086434446398,"y":39.948986765726787}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1743","NAME":"DAMSTEDT
+        2","LAST_COND":"GOOD","ELEVATION":" 1576.5","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.89765203368667,"y":39.943140551918312}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI3577","NAME":"DI
+        CIERO","LAST_COND":"MONUMENTED","ELEVATION":" 1589.9","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.01901592516448,"y":39.928396785479997}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI3559","NAME":"DOMENICO","LAST_COND":"GOOD","ELEVATION":"
+        1531.2","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.10291020579268,"y":40.05418264877791}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AE7663","NAME":"E
+        413 RESET","LAST_COND":"GOOD","ELEVATION":" 1651.82","ELEV_ORDER":"3","STABILITY":"B"},"geometry":{"x":-105.09027777736547,"y":39.928611109981908}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8181","NAME":"E
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1639.551","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.06166666733161,"y":39.876111110371845}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8206","NAME":"E
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1555.875","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.17500000015676,"y":40.101388887544879}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AB3296","NAME":"EASTLAKE","LAST_COND":"MONUMENTED","ELEVATION":"
+        1593.9","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-104.95892965498543,"y":39.942217088470841}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1797","NAME":"ENERGY","LAST_COND":"GOOD","ELEVATION":"
+        1785.0","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.16700066874,"y":39.90992611551259}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1804","NAME":"ENERGY
+        AZ MK","LAST_COND":"GOOD","ELEVATION":" 1789.7","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.17305829975497,"y":39.908516940829713}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1408","NAME":"ERIE","LAST_COND":"GOOD","ELEVATION":"
+        1558.5","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.03968094423354,"y":40.050749957033446}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI5917","NAME":"ERIE
+        AIR PARK","LAST_COND":"GOOD","ELEVATION":" 1559.89","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.0466994195646,"y":40.004003271073529}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1409","NAME":"ERIE
+        ALEXANDER DAWSON SCH TANK","LAST_COND":"MARK NOT FOUND","ELEVATION":" ","ELEV_ORDER":"
+        ","STABILITY":" "},"geometry":{"x":-105.10840996055832,"y":40.06405759591447}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1410","NAME":"ERIE
+        MAST","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-105.00383550268897,"y":40.05002785454041}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1429","NAME":"F
+        413","LAST_COND":"GOOD","ELEVATION":" 1648.907","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.08194444424124,"y":39.914166665066041}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8182","NAME":"F
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1616.992","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.06777777775038,"y":39.883333332472432}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8207","NAME":"F
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1546.425","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.16749999998562,"y":40.110277777164569}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1235","NAME":"FORT
+        LUPTON WATER TANK BEACON","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":"
+        ","STABILITY":" "},"geometry":{"x":-104.81248715615767,"y":40.079892812555933}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0392","NAME":"G
+        260","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1559.485","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.90194444462564,"y":39.856111110380596}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1421","NAME":"G
+        413","LAST_COND":"MONUMENTED","ELEVATION":" 1647.302","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.07138888841158,"y":39.937499999321616}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8183","NAME":"G
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1630.958","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.07472222202057,"y":39.891944443885563}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8208","NAME":"G
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1539.378","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.15722222300472,"y":40.118333332582317}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1415","NAME":"GB
+        3","LAST_COND":"GOOD","ELEVATION":" 1631.","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.1500305659616,"y":40.087441435264182}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0399","NAME":"H
+        260","LAST_COND":"GOOD","ELEVATION":" 1548.104","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.87861111115912,"y":39.88555555428055}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1400","NAME":"H
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1547.824","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.91749999997052,"y":39.884999999204823}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1420","NAME":"H
+        413","LAST_COND":"GOOD","ELEVATION":" 1668.523","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.07180955867932,"y":39.943191856876055}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8184","NAME":"H
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1640.070","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.0813888883403,"y":39.901944443231692}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8217","NAME":"H
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1532.987","ELEV_ORDER":"2","STABILITY":"D"},"geometry":{"x":-105.15027777783622,"y":40.123611110520052}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1418","NAME":"HAPPY
+        JACK","LAST_COND":"GOOD","ELEVATION":" 1554.2","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.08386271658041,"y":40.112872871684743}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1419","NAME":"HAPPY
+        JACK AZ MK","LAST_COND":"GOOD","ELEVATION":" 1555.","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.08820775262534,"y":40.116794923892968}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0398","NAME":"HAZELTINE
+        A 1303","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1548.139","ELEV_ORDER":"
+        ","STABILITY":"C"},"geometry":{"x":-104.87916666706006,"y":39.884722221012773}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1727","NAME":"HENDERSON
+        RESET","LAST_COND":"GOOD","ELEVATION":" 1602.8","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.8226566142816,"y":39.867964552231108}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1241","NAME":"HHC
+        1","LAST_COND":"MONUMENTED","ELEVATION":" 1520.","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.98933045520363,"y":40.117337771662875}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AB3295","NAME":"HI
+        LAND","LAST_COND":"MONUMENTED","ELEVATION":" 1562.2","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-104.87402882196282,"y":39.986861448845403}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0402","NAME":"J
+        260","LAST_COND":"GOOD","ELEVATION":" 1547.035","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.86987680871962,"y":39.896742512980339}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1401","NAME":"J
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1554.017","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.92722222194878,"y":39.885833332542774}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1419","NAME":"J
+        413","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1649.672","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.06138888848281,"y":39.943333332544384}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8186","NAME":"J
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1657.188","ELEV_ORDER":"2","STABILITY":"C"},"geometry":{"x":-105.10361111090323,"y":39.921666665814222}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8218","NAME":"J
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1528.400","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.1416666658632,"y":40.129444443465999}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1433","NAME":"JEFFCO
+        AZ MK","LAST_COND":"GOOD","ELEVATION":" 1680.260","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-105.09559293912002,"y":39.901791665606289}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1432","NAME":"JEFFCO
+        RESET","LAST_COND":"GOOD","ELEVATION":" 1694.016","ELEV_ORDER":"1","STABILITY":"D"},"geometry":{"x":-105.09732142259247,"y":39.911959610495572}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1423","NAME":"JR
+        53 5026","LAST_COND":"GOOD","ELEVATION":" 1532.55","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.04467258941659,"y":40.044021824458703}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0404","NAME":"K
+        260","LAST_COND":"POOR","ELEVATION":" 1539.968","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.86083333310877,"y":39.907777777098083}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1403","NAME":"K
+        411","LAST_COND":"GOOD","ELEVATION":" 1611.299","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.95861111058903,"y":39.884722221012773}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1417","NAME":"K
+        413","LAST_COND":"MONUMENTED","ELEVATION":" 1635.879","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.05277777740811,"y":39.943333332544384}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8187","NAME":"K
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1635.261","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.11416666673291,"y":39.92805555468901}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8219","NAME":"K
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1528.924","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.13555555544443,"y":40.135833332492844}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0411","NAME":"L
+        260","LAST_COND":"GOOD","ELEVATION":" 1534.658","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.84379734698915,"y":39.935952365898281}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AE7666","NAME":"L
+        411 RESET","LAST_COND":"GOOD","ELEVATION":" 1615.92","ELEV_ORDER":"3","STABILITY":"B"},"geometry":{"x":-104.97083333322323,"y":39.884999999204823}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1416","NAME":"L
+        413","LAST_COND":"MONUMENTED","ELEVATION":" 1615.556","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.04305555542986,"y":39.943333332544384}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8188","NAME":"L
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1635.036","ELEV_ORDER":"2","STABILITY":"C"},"geometry":{"x":-105.12277777780761,"y":39.934166665662687}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8220","NAME":"L
+        454","LAST_COND":"MONUMENTED","ELEVATION":" 1521.152","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.12555555551567,"y":40.144722221281746}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1748","NAME":"LINE
+        AZ MK","LAST_COND":"SEE DESCRIPTION","ELEVATION":" 1617.9","ELEV_ORDER":"
+        ","STABILITY":"C"},"geometry":{"x":-105.05330691385655,"y":39.924869396535385}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AE7661","NAME":"LINE
+        RESET","LAST_COND":"MONUMENTED","ELEVATION":" 1621.27","ELEV_ORDER":"3","STABILITY":"C"},"geometry":{"x":-105.05333333330906,"y":39.918333332046153}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI3578","NAME":"LUCY","LAST_COND":"GOOD","ELEVATION":"
+        1614.4","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.01147022230495,"y":40.00009957099936}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0413","NAME":"M
+        260","LAST_COND":"GOOD","ELEVATION":" 1529.946","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.83805555554324,"y":39.94583333217102}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1300","NAME":"M
+        402","LAST_COND":"MONUMENTED","ELEVATION":" 1558.975","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.90111111167252,"y":39.85666666570274}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1405","NAME":"M
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1637.656","ELEV_ORDER":"1","STABILITY":"A"},"geometry":{"x":-104.98722222241955,"y":39.88555555428055}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AE7671","NAME":"M
+        413 RESET","LAST_COND":"GOOD","ELEVATION":" 1656.86","ELEV_ORDER":"3","STABILITY":"B"},"geometry":{"x":-105.09111111121688,"y":39.934166665662687}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8189","NAME":"M
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1642.695","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.12777777732282,"y":39.934999998972096}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1732","NAME":"MID","LAST_COND":"GOOD","ELEVATION":"
+        1569.0","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.83994743627768,"y":39.868318590816848}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1751","NAME":"MORGAN","LAST_COND":"POOR","ELEVATION":"
+        1660.90","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-105.02500577200307,"y":39.97610872663094}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0418","NAME":"N
+        260","LAST_COND":"GOOD","ELEVATION":" 1522.961","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.82499999995595,"y":39.971944443779037}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1304","NAME":"N
+        260 RESET","LAST_COND":"GOOD","ELEVATION":" 1523.296","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.82494707750762,"y":39.972089323470918}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1406","NAME":"N
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1662.125","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.99999999915804,"y":39.884999999204823}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1558","NAME":"N
+        413","LAST_COND":"MONUMENTED","ELEVATION":" 1604.842","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.09138888916735,"y":39.947499999258724}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8190","NAME":"N
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1659.248","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.14222222266247,"y":39.942499998778757}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1434","NAME":"NIWOT","LAST_COND":"GOOD","ELEVATION":"
+        1643.2","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-105.15036349148737,"y":40.092159210560567}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1435","NAME":"NIWOT
+        PINK TANK","LAST_COND":"FIRST OBSERVED","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-105.15038709472147,"y":40.092104829464532}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0420","NAME":"NN
+        260","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1518.939","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.81972222249026,"y":39.987777776381371}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1745","NAME":"NORTHGLENN
+        MUN TANK","LAST_COND":"GOOD","ELEVATION":" ","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-105.01036418328947,"y":39.881896521974021}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0421","NAME":"P
+        260","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1518.956","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.81972222249026,"y":39.987777776381371}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1550","NAME":"P
+        407","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1708.788","ELEV_ORDER":"1","STABILITY":"A"},"geometry":{"x":-105.16027777776496,"y":39.986666666188199}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1407","NAME":"P
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1681.545","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.0124999997427,"y":39.885277776271444}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1557","NAME":"P
+        413","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1590.691","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.08777777760785,"y":39.95833333230501}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8191","NAME":"P
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1679.120","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.15527777735142,"y":39.951388887775153}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1729","NAME":"PAM","LAST_COND":"GOOD","ELEVATION":"
+        1570.8","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.83728540559562,"y":39.87445213515057}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1721","NAME":"PEG","LAST_COND":"SEE
+        DESCRIPTION","ELEVATION":" 1578.2","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.82638344412103,"y":39.879202315408079}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1720","NAME":"PEG
+        2","LAST_COND":"GOOD","ELEVATION":" 1580.0","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.82345592533994,"y":39.878961148806766}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2062","NAME":"PONY","LAST_COND":"GOOD","ELEVATION":"
+        1653.9","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.06067646697034,"y":39.95742556833477}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8185","NAME":"PSCO
+        W C","LAST_COND":"MONUMENTED","ELEVATION":" 1649.378","ELEV_ORDER":"2","STABILITY":"D"},"geometry":{"x":-105.08527777785025,"y":39.906944443875169}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL0165","NAME":"Q
+        260 RESET","LAST_COND":"GOOD","ELEVATION":" 1512.727","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.81222222231914,"y":40.01388888821964}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1305","NAME":"Q
+        391","LAST_COND":"GOOD","ELEVATION":" 1515.912","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.8236111111019,"y":39.986944443193842}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1409","NAME":"Q
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1687.289","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.02416666737426,"y":39.885277776271444}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1556","NAME":"Q
+        413","LAST_COND":"GOOD","ELEVATION":" 1614.229","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.10924931671541,"y":39.95875895692734}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DJ8192","NAME":"Q
+        453","LAST_COND":"MONUMENTED","ELEVATION":" 1692.308","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.17638888901079,"y":39.961944443450939}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1234","NAME":"R
+        2","LAST_COND":"MONUMENTED","ELEVATION":" 1514.96","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.81621948638161,"y":40.000337068500755}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1233","NAME":"R
+        2 ECC","LAST_COND":"MONUMENTED","ELEVATION":" 1515.23","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.81668591144003,"y":40.000333082070654}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1303","NAME":"R
+        391","LAST_COND":"GOOD","ELEVATION":" 1526.372","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.83055555537209,"y":39.95833333230501}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1410","NAME":"R
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1634.027","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.02527777737951,"y":39.899166666014914}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1555","NAME":"R
+        413","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1634.782","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.12805555527329,"y":39.957499998789132}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI3576","NAME":"RAMONA","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1575.0","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.97969058897398,"y":40.043246034512656}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=DH8823","NAME":"RAMONA
+        RESET","LAST_COND":"MONUMENTED","ELEVATION":" 1574.8","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.97817496040976,"y":40.043682249040792}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1239","NAME":"RANKIN","LAST_COND":"MARK
+        NOT FOUND","ELEVATION":" 1550.","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.91471690872754,"y":40.087721443920337}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AB3301","NAME":"RIVERDALE","LAST_COND":"MONUMENTED","ELEVATION":"
+        1554.6","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-104.92675407481994,"y":39.885038099260754}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0405","NAME":"RV
+        13.41 2","LAST_COND":"GOOD","ELEVATION":" 1540.374","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.85750000039808,"y":39.911388887959944}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0412","NAME":"RV
+        15.58","LAST_COND":"GOOD","ELEVATION":" 1531.760","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.84111111030347,"y":39.940277776521533}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0414","NAME":"RV
+        16.36","LAST_COND":"GOOD","ELEVATION":" 1528.730","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.83555555578562,"y":39.950555554343332}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0400","NAME":"RV
+        21","LAST_COND":"GOOD","ELEVATION":" 1548.974","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.87499999959965,"y":39.8897222217009}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0393","NAME":"RV
+        3","LAST_COND":"GOOD","ELEVATION":" 1560.119","ELEV_ORDER":"1","STABILITY":"C"},"geometry":{"x":-104.89722222216257,"y":39.861666666023929}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1301","NAME":"S
+        391","LAST_COND":"GOOD","ELEVATION":" 1544.318","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.86666666647541,"y":39.900277776355374}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1411","NAME":"S
+        411","LAST_COND":"GOOD","ELEVATION":" 1611.025","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.02518949454665,"y":39.909704223851193}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1398","NAME":"S
+        412","LAST_COND":"MONUMENTED","ELEVATION":" 1545.792","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.88222222271862,"y":39.885277776271444}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AE7669","NAME":"S
+        413 RESET","LAST_COND":"MONUMENTED","ELEVATION":" 1661.96","ELEV_ORDER":"3","STABILITY":"B"},"geometry":{"x":-105.14888888898217,"y":39.955555554824855}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2064","NAME":"SLATER","LAST_COND":"GOOD","ELEVATION":"
+        1594.6","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.9939545780444,"y":39.993484646815318}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1399","NAME":"SPR
+        18","LAST_COND":"GOOD","ELEVATION":" 1540.735","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.90249999962825,"y":39.885277776271444}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1413","NAME":"T
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1600.152","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.034166667303,"y":39.925277776730333}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1430","NAME":"T
+        412","LAST_COND":"GOOD","ELEVATION":" 1648.903","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.09111111121688,"y":39.918888887689228}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1553","NAME":"T
+        413","LAST_COND":"GOOD","ELEVATION":" 1673.831","ELEV_ORDER":"2","STABILITY":"B"},"geometry":{"x":-105.16416666727493,"y":39.957222221218615}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AI3563","NAME":"TESSAR","LAST_COND":"MONUMENTED","ELEVATION":"
+        1630.3","ELEV_ORDER":" ","STABILITY":"B"},"geometry":{"x":-105.15046877583529,"y":40.087463601695987}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1741","NAME":"THORNTON","LAST_COND":"SEE
+        DESCRIPTION","ELEVATION":" 1654.4","ELEV_ORDER":" ","STABILITY":" "},"geometry":{"x":-104.97359367732658,"y":39.870685729655079}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1739","NAME":"THORNTON
+        2","LAST_COND":"GOOD","ELEVATION":" 1659.2","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.97947384975045,"y":39.870985480191145}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1737","NAME":"THORNTON
+        2 AZ MK","LAST_COND":"GOOD","ELEVATION":" 1643.3","ELEV_ORDER":" ","STABILITY":"
+        "},"geometry":{"x":-104.97331545021848,"y":39.86893955994406}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1740","NAME":"THORNTON
+        2 RM 6","LAST_COND":"MONUMENTED","ELEVATION":" 1659.8","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.97948653935215,"y":39.871369176174547}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0417","NAME":"TMB
+        40","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1525.606","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.82722222176307,"y":39.964999999752251}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1444","NAME":"TRICO","LAST_COND":"GOOD","ELEVATION":"
+        1551.43","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.04859370508906,"y":40.009992566479234}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=LL1445","NAME":"TRICO
+        AZ MK","LAST_COND":"GOOD","ELEVATION":" 1558.7","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.04680489435536,"y":40.004894352073123}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1412","NAME":"U
+        411","LAST_COND":"GOOD","ELEVATION":" 1599.514","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.034166667303,"y":39.9144444431263}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1436","NAME":"U
+        412","LAST_COND":"MONUMENTED","ELEVATION":" 1633.627","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.0925000000709,"y":39.874444443368759}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=AB3291","NAME":"U85
+        MP237.85 RT","LAST_COND":"GOOD","ELEVATION":" 1509.2","ELEV_ORDER":" ","STABILITY":"D"},"geometry":{"x":-104.81737188655057,"y":40.026272316284029}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1414","NAME":"V
+        411","LAST_COND":"MONUMENTED","ELEVATION":" 1610.823","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.034166667303,"y":39.934722220952082}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1437","NAME":"V
+        412","LAST_COND":"GOOD","ELEVATION":" 1655.081","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.08527777785025,"y":39.864722221361433}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1551","NAME":"V
+        413","LAST_COND":"GOOD","ELEVATION":" 1693.636","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.16611111113158,"y":39.973055554506978}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0533","NAME":"V
+        62","LAST_COND":"GOOD","ELEVATION":" 1562.233","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.84916666637554,"y":39.884722221012773}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2114","NAME":"W
+        411 RESET","LAST_COND":"MONUMENTED","ELEVATION":" 1611.76","ELEV_ORDER":"3","STABILITY":"B"},"geometry":{"x":-105.03444444435516,"y":39.942777776910049}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1438","NAME":"W
+        412","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1672.199","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.08222222219172,"y":39.857499999218504}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1549","NAME":"W
+        413","LAST_COND":"GOOD","ELEVATION":" 1664.087","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.17527777810722,"y":39.987499999322843}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK0534","NAME":"W
+        62","LAST_COND":"GOOD","ELEVATION":" 1566.618","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-104.87388888959438,"y":39.862777776689491}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2065","NAME":"WANAKA","LAST_COND":"GOOD","ELEVATION":"
+        1622.6","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.10924178344345,"y":39.994442057407511}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK2066","NAME":"WANAKA
+        AZ MK","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1606.","ELEV_ORDER":" ","STABILITY":"C"},"geometry":{"x":-105.10196474782077,"y":39.994102893783413}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1402","NAME":"X
+        411","LAST_COND":"MARK NOT FOUND","ELEVATION":" 1593.946","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-104.94722222270457,"y":39.884722221012773}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1426","NAME":"Y
+        411","LAST_COND":"GOOD","ELEVATION":" 1610.695","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.05361111125953,"y":39.913611109699843}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1428","NAME":"Z
+        411","LAST_COND":"GOOD","ELEVATION":" 1623.863","ELEV_ORDER":"1","STABILITY":"B"},"geometry":{"x":-105.06527777799279,"y":39.914166665066041}},{"attributes":{"DATA_SRCE":"http:\/\/www.ngs.noaa.gov\/cgi-bin\/ds_mark.prl?PidBox=KK1431","NAME":"Z
+        412","LAST_COND":"MONUMENTED","ELEVATION":" 1665.489","ELEV_ORDER":"1","STABILITY":"A"},"geometry":{"x":-105.09361111097449,"y":39.916111109877207}}]}'
+    http_version:
+  recorded_at: Fri, 13 Mar 2015 02:06:26 GMT
+recorded_with: VCR 2.9.3

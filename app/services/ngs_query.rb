@@ -2,14 +2,13 @@ class NgsQuery
   attr_accessor :latitude, :longitude, :response
 
   def initialize(latitude, longitude)
-    @state = state
     @latitude = latitude
     @longitude = longitude
     send_request
   end
 
   def results_within_mile(distance)
-    JSON.parse(response.body)['features'].select { |feature| distance_to(feature['geometry']) < distance }
+    JSON.parse(response.body)['features'].select { |feature| distance_to(feature['geometry']) < distance.to_f }
   end
 
   def distance_to(location={})
@@ -26,7 +25,7 @@ class NgsQuery
     a = (Math.sin(Δφ/2) * Math.sin(Δφ/2)) + (Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ/2) * Math.sin(Δλ/2))
     c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
 
-    (earth_radius * c).round(2)
+    (earth_radius * c.to_f).round(2)
   end
 
   def send_request

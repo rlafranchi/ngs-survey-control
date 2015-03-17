@@ -1,2 +1,46 @@
 <h1>A better way to search for NGS Datasheets</h1>
 <hr>
+<div class="row">
+  <div class="medium-4 columns">
+    <%= form_tag root_path, method: :get do %>
+      <fieldset>
+        <%= label_tag :latitude %>
+        <%= text_field_tag :latitude %>
+        <%= label_tag :longitude %>
+        <%= text_field_tag :longitude %>
+        <%= label_tag :distance, "Distance (miles)" %>
+        <%= select_tag :distance, options_for_select([['1', 1], ['2', 2], ['3', 3], ['4', 4], ['5', 5], ['6', 6], ['7', 7], ['8', 8], ['9', 9], ['10', 10]], 5) %>
+        <%= submit_tag "Submit", class: 'button' %>
+      </fieldset>
+    <% end %>
+  </div>
+  <div class="medium-8 columns">
+    <% if @results.present? %>
+      <h3>Results within <%= params[:distance] || 5 %> miles of <%= @query.latitude %>, <%= @query.longitude %></h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Elevation Order</th>
+            <th>Stability</th>
+            <th>Condition</th>
+            <th>Link</th>
+            <th>Distance from coordinates</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @results.each do |result| %>
+            <tr>
+              <td><%= result['attributes']['NAME'] %></td>
+              <td><%= result['attributes']['ELEV_ORDER'] %></td>
+              <td><%= result['attributes']['STABILITY'] %></td>
+              <td><%= result['attributes']['LAST_COND'] %></td>
+              <td><%= link_to result['attributes']['DATA_SRCE'], result['attributes']['DATA_SRCE'], target: "_blank" %></td>
+              <td><%= @query.distance_to(result['geometry']) %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    <% end %>
+  </div>
+</div>
